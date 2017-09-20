@@ -1,0 +1,904 @@
+/********** DESKTOP **********/
+/****** General ******/
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 0.5px;
+}
+
+div {
+  padding: 0;
+  margin: 0;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 75%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+#portfolio, #service {
+  background: #EDEDED;
+}
+
+/****** Header/Navigation ******/
+
+#header {
+  background: #FFF;
+  box-shadow: 0 1px 1px #CCC;
+  position: fixed;
+  width: 100%;
+  padding: 10px 0 3px 0;
+  z-index: 1;
+  overflow: hidden;
+}
+
+#logo {
+  display: inline-block;
+}
+
+/** Menu Items **/
+nav ul {
+  float: right;
+  list-style: none;
+  clear: both;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  text-decoration: none;
+  padding: 5px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #000;
+  transition: 0.1s;
+}
+
+nav ul li a:hover {
+  color: #AAA;
+}
+
+.bars {
+  float: right;
+  display: none;
+  cursor: pointer;
+}
+
+/****** Home ******/
+
+#slider {
+  padding-top: 120px;
+}
+
+#slider h2 {
+  font-size: 85px;
+  width: 50%;
+  padding: 0;
+  margin: 0;
+  line-height: 120%;
+  margin-top: 70px;
+}
+
+.left, .menuleft {
+  width: 49%;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+}
+
+.right, .menuright {
+  width: 49%;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  vertical-align: top;
+  text-align: right;
+}
+
+#lgNum {
+  color: #C4C4C4;
+  font-size: 320px;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  left: 34px;
+  float: right;
+  line-height: 120%;
+}
+
+#titleImg {
+  text-align: right;
+  height: 240px;
+  overflow: hidden;
+}
+
+#titleImg img {
+  width: 70%;
+  position: relative;
+  bottom: 100px;
+}
+
+#sliderButton {
+  padding: 40px 0;
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+#sliderButton a {
+  text-decoration: none;
+  font-weight: 700;
+  border-bottom: 3px solid #000;
+  padding-bottom: 5px;
+  color: #000;
+  transition: 0.1s;
+}
+
+#slider .menuleft a {
+  padding-right: 45px;
+}
+
+#slider .menuright a {
+  padding-left: 45px;
+}
+
+#sliderButton a:hover {
+  color: #AAA;
+  border-bottom: 3px solid #AAA;
+}
+
+/****** About ******/
+
+#about h2 {
+  font-size: 45px;
+  line-height: 100%;
+}
+
+
+#about .left p {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.row {
+  margin: auto;
+  position: relative;
+  left: 40px;
+  padding-bottom: 60px;
+  text-align: center;
+}
+
+#about .fa {
+  position: relative;
+  right: 50px;
+  top: 35px;
+}
+
+.feature {
+  width: 26%;
+  display: inline-block;
+  margin: 0 20px;
+  padding-top: 20px;
+  text-align: left;
+}
+
+.feature p {
+  font-size: 14px;
+}
+
+/****** Portfolio ******/
+
+#portfolio {
+  padding: 70px 0;
+}
+
+#portfolio h4 {
+  font-weight: 700;
+}
+
+#portfolio h6 {
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.portTitle {
+  text-align: center;
+  width: 55%;
+  margin: auto;
+}
+
+.portTitle h2 {
+  font-size: 45px;
+  line-height: 100%;
+}
+
+.portTitle h4 {
+  position: relative;
+  left: 20px;
+}
+
+.portTitle p {
+  font-size: 12px;
+}
+
+.portPhotoLeft, .portPhotoRight {
+  padding-top: 50px;
+  
+}
+
+.portPhotoLeft .resizePhoto {
+  float: left;
+}
+
+.portPhotoRight .resizePhoto {
+  float: right;
+}
+
+.portPhotoRight {
+  text-align: right;
+}
+
+.portRight{
+  width: 40%;
+  display: inline-block;
+  padding-left: 80px;
+}
+
+.portPhotoLeft div h2 {
+  font-size: 30px;
+  text-align: right;
+  position: relative;
+  top: 40px;
+  left: 50px;
+  line-height: 100%;
+}
+
+.portLeft {
+  width: 40%;
+  display: inline-block;
+  padding-right: 80px;
+}
+
+
+.portPhotoRight div h2 {
+  font-size: 30px;
+  text-align: left;
+  position: relative;
+  top: 40px;
+  right: 50px;
+  line-height: 100%;
+}
+
+.portPhotoLeft p, .portPhotoRight p {
+  font-size: 14px;
+  padding-top: 10px;
+}
+
+.resizePhoto {
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  height: 225px;
+  width: 45%;
+  overflow: hidden;
+}
+
+.portPhotoLeft img, .portPhotoRight img {
+  width: 100%;
+}
+
+/****** Contact One ******/
+#contactOne {
+  text-align: center;
+  padding: 160px 0;
+}
+
+#contactOne h1 {
+  text-align: center;
+  font-size: 40px;
+}
+
+#contactOne p {
+  color: #6B696B;
+  padding-bottom: 50px;
+}
+
+#contactOne a {
+  text-decoration: none;
+  padding: 20px 60px;
+  text-transform: uppercase;
+  background: #000;
+  color: #FFF;
+  font-size: 12px;
+  font-weight: 500;
+  transition: 0.5s
+}
+
+#contactOne a:hover {
+  background: #EEE;
+  color: #000;
+}
+
+
+/****** Service ******/
+ /** Main Layout **/
+#service {
+  padding: 100px 0;
+  vertical-align: middle;
+}
+
+#service .container {
+  text-align: center;
+}
+
+.pricePlan {
+  width: 22%;
+  display: inline-block;
+  padding: 30px;
+  margin: 20px;
+  min-width: 200px;
+  background: #FFF;
+  height: 420px;
+  vertical-align: top;
+}
+
+.pricePlan ul {
+  list-style: none;
+  border-top: 1px solid #C4C4C4;
+  text-align: left;
+  margin: 35px 5px;
+  padding: 15px 0 0 0;
+}
+
+.pricePlan ul li {
+  font-size: 10px;
+  padding-top: 15px;
+}
+
+.pricePlan h5 {
+  text-transform: uppercase;
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.pricePlan h3 {
+  vertical-align: top;
+  font-size: 14px;
+  display: inline-block;
+}
+
+.pricePlan h1 {
+  font-size: 100px;
+  display: inline-block;
+  line-height:75%;
+}
+
+.pricePlan h4 {
+  display: inline-block;
+}
+
+.pricePlan a {
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  background: #000;
+  color: #FFF;
+  padding: 20px 50px;
+  font-size: 12px;
+  font-weight: 700;
+  transition: 0.5s
+}
+
+.pricePlan a:hover {
+  background: #EEE;
+  color: #000;
+}
+
+/** First Plan **/
+.pricePlan:first-child {
+  margin-right: 20px;
+}
+
+.pricePlan:first-child ul{
+  margin-bottom: 97px;
+}
+
+.pricePlan h6 {
+  margin-top: 30px;
+  font-weight: 300;
+}
+
+/** Second Plan **/
+
+.blackPrice {
+  background: #000;
+  color: #FFF;
+}
+
+#bestPlan {
+  width: 70px;
+  height: 70px;
+  padding: 5px;
+  color: #000;
+  background: #FFF;
+  border-radius: 50%;
+  position: relative;
+  left: 130px;
+  bottom: 450px;
+
+}
+
+#bestPlan p {
+  text-align: center;
+  font-weight: 700;
+  padding-top: 11px;
+  font-size: 10px;
+  text-transform: uppercase
+}
+
+
+.blackPrice a {
+  background: #FFF;
+  color: #000;
+}
+
+.blackPrice a:hover {
+  background: #333;
+  color: #FFF;
+}
+
+/** Last Plan **/
+
+.pricePlan:last-child {
+  margin-left: 20px;
+}
+
+.pricePlan:last-child ul{
+  margin-bottom: 66px;
+}
+
+
+
+/****** Contact Two ******/
+
+#contactTwo {
+  padding: 100px 0;
+}
+
+#contactTwo img {
+  margin: 25px 20px 20px 0;
+}
+#contactTwo .left {
+  width: 20%;
+  margin-right: 40px;
+  font-size: 20px;
+  line-height: 250%;
+}
+
+#contactTwo .right {
+  width: 70%;
+  text-align: left;
+  color: #6B696B;
+  padding: 15px 0;
+}
+
+#contactTwo .right p {
+  margin: 10px 0 60px 30px;
+}
+
+#contactTwo a {
+  text-decoration: none;
+  padding: 20px 60px;
+  text-transform: uppercase;
+  background: #000;
+  color: #FFF;
+  font-size: 12px;
+  font-weight: 500;
+  transition: 0.5s;
+  margin-left: 30px;
+}
+
+#contactTwo a:hover {
+  background: #EEE;
+  color: #000;
+}
+
+/****** Footer ******/
+
+#footer {
+  background: #000;
+  color: #fff;
+  padding-top: 80px;
+}
+
+#footer img {
+  display: inline-block;
+}
+
+#footer h4 {
+  display: inline-block;
+  width: 50px;
+  margin: 0 15px;
+  line-height: 120%;
+  vertical-align: top;
+}
+
+.social {
+  margin: 100px 15px;
+}
+
+.social a{
+  display:inline-block;
+  color: #FFF;
+  margin-top: 5px;
+}
+
+.social a div {
+  width: 30px;
+  height: 30px;
+  background: #6B696B;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 30px;
+  transition: 0.5s;
+}
+
+.social a div:hover {
+  background:#FFF;
+  color:#000;
+}
+
+.col span {
+  color: #6B696B;
+  text-transform: uppercase;
+  text-align: left;
+  font-size: 12px;
+}
+.col{
+  display: inline-block;
+  vertical-align: top;
+  margin: 20px;
+  width: 10%;
+}
+
+.col:first-child {
+  width: 20%;
+}
+.col:nth-child(4){
+  text-transform: uppercase;
+}
+
+.col ul {
+  list-style: none;
+  margin: 10px 0 0 0;
+  padding: 0;
+}
+
+.col ul li a{
+  text-decoration: none;
+  color: #FFF;
+  font-size: 12px;
+}
+
+.col ul li a:hover {
+  color: #6B696B;
+}
+
+
+.col input {
+  border: 2px solid #AAA;
+  color: #C4C4C4;
+  background: #000;
+  padding: 10px 15px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.col button {
+  border: 1px solid #FFF;
+  background: #FFF;
+  padding: 10px 20px;
+  margin-top: 20px;
+  font-weight: 700;
+  transition: 0.5s;
+}
+
+.col button:hover {
+  background: #000;
+  color: #FFF;
+}
+
+/********** LAPTOPS **********/
+@media all and (max-width: 875px) {
+
+  /****** Home ******/
+  
+  #lgNum {
+    font-size: 250px;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    right: 100px;
+    float: right;
+    line-height: 150%;
+  }
+
+  /****** About ******/
+  .feature {
+    width: 40%;
+  }  
+}
+
+/********** TABLET **********/
+@media all and (max-width: 768px) {
+
+/****** General ******/
+
+html, body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* div {
+  overflow: hidden;
+} */
+.container {
+  width: 90%;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+#portfolio, #service {
+  background: #EDEDED;
+}
+
+/****** Header/Navigation ******/
+nav ul {
+  float: none;
+  display: none;
+  width: 70%;
+}
+
+nav ul li{
+  display: block;
+  text-align: center;
+  border-top: 1px solid #C4C4C4;
+  padding: 10px;
+}
+
+nav ul li a {
+  font-size: 18px;
+  padding: 10px 40%;
+}
+
+.bars {
+  display: inline-block;
+}
+
+/****** Home ******/
+
+#titleImg {
+  height: 100%;
+}
+
+#titleImg img {
+  width: 100%;
+}
+
+#lgNum {
+  font-size: 150px;
+  line-height: 100%;
+  right: 50px;
+  position: relative;
+  left: -50px;
+}
+
+
+#slider h2 {
+  font-size: 55px;
+  width: 100%;
+  line-height: 120%;
+}
+#slider .left {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+}
+
+#slider .right {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  vertical-align: top;
+  text-align: right;
+}
+  /****** About ******/
+  #about {
+    overflow: hidden;
+  }
+  .feature {
+    width: 40%;
+  }  
+  
+/****** Portfolio ******/
+
+.portPhotoLeft img, .portPhotoRight img {
+  width: 100%;
+}
+
+.portPhotoLeft .resizePhoto, .portPhotoRight .resizePhoto {
+  float: none;
+}
+
+.portPhotoRight {
+  text-align: left;
+}
+
+.portPhotoRight div h2, .portPhotoLeft div h2 {
+  font-size: 30px;
+  text-align: right;
+  position: relative;
+  top: 40px;
+  left: 20px;
+  line-height: 100%;
+}
+
+.portLeft, .portRight {
+  width: 90%;
+  display: inline-block;
+  padding: 0;
+}
+
+.resizePhoto {
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  height: 225px;
+  width: 90%;
+  overflow: hidden;
+}
+
+/****** Contact Two ******/
+#contactTwo .right {
+  width: 70%;
+  text-align: left;
+  color: #6B696B;
+  padding: 15px 0;
+  margin-left: 10px;
+}
+
+/****** Footer ******/
+
+#footer {
+  background: #000;
+  color: #fff;
+}
+
+.col input {
+  width: 100%;
+}
+.social{
+  margin: 20px;
+}
+}
+
+/********** MOBILE **********/
+@media all and (max-width: 480px) {
+
+/****** General ******/
+
+.bars {
+  font-size: 16px;
+}
+
+/****** About ******/
+#about {
+  overflow: hidden;
+}
+#about .left{
+  width: 100%;
+}
+
+  .feature {
+    width: 80%;
+  }  
+
+/****** Portfolio ******/
+
+.portTitle {
+  text-align: center;
+  width: 90%;
+  margin: auto;
+}
+
+/****** Service ******/
+
+.pricePlan {
+  width: 70%;
+  display: inline-block;
+  padding: 30px;
+  min-width: 200px;
+  height: 450px;
+  vertical-align: top;
+}
+
+.pricePlan ul li{
+  font-size: 15px;
+}
+
+#bestPlan {
+  width: 70px;
+  height: 70px;
+  padding: 5px;
+  color: #000;
+  background: #FFF;
+  border-radius: 50%;
+  position: relative;
+  left: 140px;
+  bottom: 480px;
+
+}
+
+/****** Contact Two ******/
+
+#contactTwo .left {
+  width: 100%;
+  margin: 0;
+  font-size: 20px;
+  line-height: 250%;
+}
+
+#contactTwo .right {
+  width: 100%;
+  text-align: left;
+  color: #6B696B;
+  padding: 15px 0;
+}
+
+/****** Footer ******/
+#footer {
+  text-align: center;
+}
+
+.col{
+  display: inline-block;
+  vertical-align: top;
+  margin: 20px;
+  width: 90%;
+  text-align: center;
+}
+
+.social {
+  margin: 20px;
+}
+
+.col-1 {
+  width: 90%;
+  text-align: center;
+  margin: auto;
+}
+
+.col input {
+  width: 80%;
+}
+
+}
